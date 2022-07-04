@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 50px;
+  background-color: #FF9A4B;
+}
+main{
+  display: flex;
+  justify-content: center;
+}
+.box{
+  width: 300px;
+  margin: 50px 15px;
+  padding: 10px;
+  background-color: #EEEEEE;
+  position: relative;
+}
+span{
+  color: #fff;
+  background-color: #FF9A4B;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.img{
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+.img1{
+  background-image: url(img1/flow01.png);
+}
+.img2{
+  background-image: url(img1/flow02.png);
+}
+.img3{
+  background-image: url(img1/flow03.png);
+}
+h3{
+  padding: 15px 0 5px;
+  font-size: 16px;
+}
+p{
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+footer{
+  height: 50px;
+  background-color: #AAAAAA;
+}
